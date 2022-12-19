@@ -6,12 +6,17 @@ nav {
     text-align: center;
     justify-content: center;
     z-index: 2;
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 22;
     /* right: 50%; */
     /* transform: translateX(-50%); */
-    bottom: 2rem;
+    /* bottom: 2rem; */
     display: flex;
-    gap: 0.8rem;
+    /* justify-content: space-between; */
+    /* gap: 0.8rem; */
     /* border-radius: 3rem; */
     backdrop-filter: blur(15px);
   }

@@ -4,13 +4,17 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import {FaFileDownload} from "react-icons/fa"
+
 
 import "./topbar.css";
 
 const Topbar = () => {
   const [activeNav, setActiveNav] = useState("#home");
   return (
-    <nav>
+    <div style={{position:"absolute"}}>
+        <nav>
+      {/* <h1 className="name">Arjun </h1> */}
       <a
         href="#home"
         onClick={() => setActiveNav("#home")}
@@ -46,7 +50,18 @@ const Topbar = () => {
       >
         <BiMessageSquareDetail size={30} />
       </a>
+      <a
+        target={"_blank"}
+        href="https://drive.google.com/uc?export=download&id=1JfFnfYRlAGfjvrQYTQ6a1l2uVZHBltP_"
+        onClick={() => setActiveNav("#resume")}
+        className={activeNav === "#resume" ? "active" : ""}
+      >
+        <FaFileDownload size={30} />
+      </a>
+     
     </nav>
+    </div>
+  
   );
 };
 

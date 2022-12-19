@@ -30,7 +30,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: "Shopbop-Clone || Shopping Website",
-      img: "https://boutique.humbleandrich.com/wp-content/uploads/2019/03/Shopbop-3.jpg",
+      img: "https://i.postimg.cc/Z52KdhC1/Screenshot-11.png",
       des: [
         {
           li: "Sign Up | Login | Mens Page - with Filter & SortFunctionality",
@@ -44,7 +44,7 @@ const Portfolio = () => {
         },
       ],
       team: "A solo project, executed in 4 days",
-      teckStack: "HTML || CSS || JavaScript ",
+      teckStack: "HTML || CSS || JavaScript || Local Storage",
       link: "https://papaya-pothos-367bd6.netlify.app/",
       github: "https://github.com/A-Hore/shopbop2final",
     },
@@ -68,11 +68,38 @@ const Portfolio = () => {
           li: "Subscribe Functionality",
         },
       ],
-      img: "https://images.firstpost.com/fpimages/100x100/fixed/jpg/scalex16x9/2022/08/796159_202208261618_940x355.jpeg?impolicy=website&width=751&height=422",
+      img: "https://i.postimg.cc/QdpdyVCq/Screenshot-10.png",
       team: "A solo project, executed in 4 days",
       teckStack: "HTML | CSS | JavaScript | React | Redux",
       link: "https://genuine-meringue-957d20.netlify.app/",
       github: "https://github.com/A-Hore/wrong-mother-4289/tree/main/firstpost",
+    },
+    {
+      id: 3,
+      title: "Wantflix || Streaming Website",
+      des: [
+        {
+          li: "Various Categories of Movies.",
+        },
+        {
+          li: "Search Movies Functionality",
+        },
+        {
+          li: "Single Movie Page with All Information",
+        },
+        {
+          li: "Watch Movies",
+        },
+        {
+          li: "Signup/Login Functionality",
+        },
+      ],
+      img: "https://i.postimg.cc/SxtnVQ4D/Screenshot-9.png",
+      team: "A collaborative project built by a team of 4, executed in 6 days",
+      teckStack:
+        "HTML | CSS | JavaScript | React | Redux | MongoDb | Express | Chakra Ui",
+      link: "https://wantflix-shows.netlify.app/",
+      github: "https://github.com/A-Hore/likely-laborer-9813",
     },
   ];
 

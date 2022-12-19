@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { MdOutlineEmail } from "react-icons/md";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import "./contact.css";
 
 const Contact = () => {
@@ -37,6 +38,11 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>arjunhore2611@gmail.com</h5>
             <a href="mailto:arjunhore2611@gmail.com">Send a message</a>
+          </article>
+          <article className="contact__option">
+            <BsFillTelephoneFill className="contact__option-icon" />
+            <h4>Contact Me</h4>
+            <h5>+91 7038454345</h5>
           </article>
         </div>
         <form ref={formRef} onSubmit={handleSubmit}>

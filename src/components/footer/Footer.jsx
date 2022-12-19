@@ -1,27 +1,29 @@
-import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
-import { FaGithub } from 'react-icons/fa';
-import './footer.css';
+import React from "react";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer>
-      
+    <footer className="footer">
       <ul className="permalinks">
         <li>
-          <a href="#home">Home</a>
+          <a href="#home">HOME</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">ABOUT</a>
         </li>
         <li>
-          <a href="#experience">Skills</a>
+          <a href="#experience">SKILLS</a>
         </li>
         <li>
-          <a href="#portfolio">Projects</a>
+          <a href="#portfolio">PROJECTS</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">CONTACT</a>
+        </li>
+        <li>
+          <a href="#resume">RESUME</a>
         </li>
       </ul>
       <div className="footer__socials">
@@ -32,19 +34,15 @@ const Footer = () => {
         >
           <BsLinkedin />
         </a>
-        <a
-          href="https://github.com/A-Hore"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://github.com/A-Hore" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; ET 2022. All rights reserved.</small>
+        <small>&copy; Design By Arjun Hore </small>
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;
