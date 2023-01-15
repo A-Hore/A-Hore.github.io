@@ -5,12 +5,12 @@ nav {
     padding: 0.7rem 1.7rem;
     text-align: center;
     justify-content: center;
-    z-index: 2;
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 22;
+    /* z-index: 22; */
     /* right: 50%; */
     /* transform: translateX(-50%); */
     /* bottom: 2rem; */
@@ -28,13 +28,17 @@ nav {
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
+    
   }
   
   nav a:hover {
     background: rgba(0, 0, 0, 0.3);
+   
   }
   
   nav a.active {
     background: var(--color-bg);
     color: var(--color-white);
   }
+  
+  

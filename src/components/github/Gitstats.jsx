@@ -10,7 +10,7 @@ import {
 
 const Gitstats = () => {
   return (
-    <Center style={{padding:"0px 1rem"}}>
+    <Center style={{ padding: "0px 1rem" }}>
       <Flex direction={"column"} alignItems="center" gap={"10"}>
         <Heading size={"md"} color={"rgb(77,181,255)"}>
           My Github Stats
@@ -27,9 +27,10 @@ const Gitstats = () => {
             <img
               align="center"
               src="https://github-readme-stats.vercel.app/api?username=A-Hore&show_icons=true&locale=en"
-              alt="praful-87"
+              alt="Arjun's GitHub stats"
             />
-          </p>
+                      
+          </p>
         </Box>
       </Flex>
     </Center>
